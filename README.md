@@ -4,10 +4,10 @@
 
 ### **👥 Team Members**
 
-| Joy Chang | @JoyChang10 | Performed data augmentation and categorical cleaning, handled missing data, built XGBoost model | <br />
-| Paige Wu | @pwinnie2026 | Performed data cleaning, visualized dataset distributions | <br />
-| Fatima Waqar| @-- | Performed data augmentation and categorical cleaning, handled missing data, finetuned model with regularization | <br />
-| Tanvi Ladha| @tanviladha| Performed data cleaning, visualized dataset distributions, addressed imbalances, feature analysis | <br />
+* Joy Chang | [@JoyChang10](https://github.com/JoyChang10) | Performed data preprocessing and feature engineering on categorical and quantitative data, built XGBoost model | <br />
+* Paige Wu | @pwinnie2026 | Performed data cleaning, visualized dataset distributions | <br />
+* Fatima Waqar| @-- | Performed data augmentation and categorical cleaning, handled missing data, finetuned model with regularization | <br />
+* Tanvi Ladha| @tanviladha| Performed data cleaning, visualized dataset distributions, addressed imbalances, feature analysis | <br />
 
 ---
 
