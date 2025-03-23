@@ -4,10 +4,10 @@
 
 ### **👥 Team Members**
 
-| Joy Chang | @JoyChang10 | Performed data augmentation and categorical cleaning, handled missing data, built XGBoost model |
-| Paige Wu | @pwinnie2026 | Performed data cleaning, visualized dataset distributions |
-| Fatima Waqar| @-- | Performed data augmentation and categorical cleaning, handled missing data, finetuned model with regularization |
-| Tanvi Ladha| @tanviladha| Performed data cleaning, visualized dataset distributions, addressed imbalances, feature analysis |
+| Joy Chang | @JoyChang10 | Performed data augmentation and categorical cleaning, handled missing data, built XGBoost model | <br />
+| Paige Wu | @pwinnie2026 | Performed data cleaning, visualized dataset distributions | <br />
+| Fatima Waqar| @-- | Performed data augmentation and categorical cleaning, handled missing data, finetuned model with regularization | <br />
+| Tanvi Ladha| @tanviladha| Performed data cleaning, visualized dataset distributions, addressed imbalances, feature analysis | <br />
 
 ---
 
@@ -88,7 +88,7 @@
 
 **WiDS challenge:**
 
-1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
+1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how? <br />
    While our model (an XGBoost classifier) did not directly produce interpretable neurobiological insights, it was trained on functional connectivity matrices — where each feature represents the correlation between a pair    of brain regions — along with demographic and behavioral data. These features allow the model to learn patterns in brain network interactions that differ between individuals with and without ADHD.
 
   Given the  performance of the model in predicting ADHD diagnosis, we can infer that there are distinct patterns of functional connectivity that help distinguish ADHD from non-ADHD brains. Prior research supports           this, particularly involving regions like the prefrontal cortex, default mode network, and attention-regulation networks.
@@ -96,7 +96,7 @@
   Regarding sex differences, the dataset itself reflected an imbalance in ADHD diagnosis across sexes, which is also consistent with real-world diagnostic patterns. Though we didn’t perform direct interpretability           analysis, we recognize that models trained on this data might learn sex-specific connectivity cues, as ADHD often manifests differently in males and females. This could suggest that ADHD-related brain patterns are         influenced by sex, supporting the hypothesis that girls may present more subtle or different neurobiological markers of ADHD.
 
 
-2. How could your work help contribute to ADHD research and/or clinical care?
+2. How could your work help contribute to ADHD research and/or clinical care? <br />
    Modeling subtle brain-based signals: By training a model on high-dimensional FMRI connectivity data, we demonstrated that machine learning can detect brain-based signatures associated with ADHD, even in the absence of     overt behavioral symptoms.
 
   Highlighting diagnostic disparities: This work draws attention to the underdiagnosis of ADHD in females, and reinforces the importance of including sex as a consideration in both model evaluation and healthcare            diagnostics.
