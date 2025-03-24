@@ -2,7 +2,7 @@
 
 ---
 
-### **👥 Team Members**
+## **👥 Team Members**
 
 * Joy Chang [(@JoyChang10)](https://github.com/JoyChang10) - Performed data preprocessing and feature engineering for categorical, quantitative, and functional MRI data, built XGBoost model
 * Paige Wu (@pwinnie2026) - Performed data understanding, cleaning, and visualized dataset distributions
@@ -61,7 +61,7 @@
 </div>
 
 * After performing PCA on the fMRI data, we created a scree plot to identify which fMRI features had high explanatory power for variance and to assess whether there was an increase compared to before PCA.
-<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="600">
+<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="500">
 
 ---
 
