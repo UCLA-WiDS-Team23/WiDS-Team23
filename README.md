@@ -4,7 +4,7 @@
 
 ### **👥 Team Members**
 
-* Joy Chang ([@JoyChang10])(https://github.com/JoyChang10) - Performed data preprocessing and feature engineering on categorical and quantitative data, built XGBoost model
+* Joy Chang [(@JoyChang10)](https://github.com/JoyChang10) - Performed data preprocessing and feature engineering on categorical and quantitative data, built XGBoost model
 * Paige Wu (@pwinnie2026) - Performed data understanding, cleaning, and visualized dataset distributions
 * Fatima Waqar (@524fatima) -  Performed visualization and cleaning for categorical and quantitative data, finetuned XGBoost model with regularization
 * Tanvi Ladha (@tanviladha) - Performed data cleaning, visualized dataset distributions, addressed imbalances, conducted feature analysis and model research
