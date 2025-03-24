@@ -51,12 +51,12 @@
 
 * By visualizing the correlations between quantitative features and the labels (sex and ADHD) in a heatmap, we were able to better observe the spread of correlations and determine which features to retain.
 <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="https://github.com/user-attachments/assets/7c47a975-8c2d-4aca-b562-f6874c9f1f49" width="500">
-    <img src="https://github.com/user-attachments/assets/d11eea05-e198-4354-9a0a-3c9e2a4bd969" width="500">
+    <img src="https://github.com/user-attachments/assets/7c47a975-8c2d-4aca-b562-f6874c9f1f49" width="600">
+    <img src="https://github.com/user-attachments/assets/d11eea05-e198-4354-9a0a-3c9e2a4bd969" width="600">
 </div>
 
 * After performing PCA on the fMRI data, we created a scree plot to identify which fMRI features had high explanatory power for variance and to assess whether there was an increase compared to before PCA.
-<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="500">
+<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="600">
 
 ---
 
