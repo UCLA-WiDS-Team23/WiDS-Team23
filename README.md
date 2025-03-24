@@ -4,7 +4,7 @@
 
 ### **👥 Team Members**
 
-* Joy Chang [(@JoyChang10)](https://github.com/JoyChang10) - Performed data preprocessing and feature engineering on categorical and quantitative data, built XGBoost model
+* Joy Chang [(@JoyChang10)](https://github.com/JoyChang10) - Performed data preprocessing and feature engineering for categorical, quantitative, and functional MRI data, built XGBoost model
 * Paige Wu (@pwinnie2026) - Performed data understanding, cleaning, and visualized dataset distributions
 * Fatima Waqar (@524fatima) -  Performed visualization and cleaning for categorical and quantitative data, finetuned XGBoost model with regularization
 * Tanvi Ladha (@tanviladha) - Performed data cleaning, visualized dataset distributions, addressed imbalances, conducted feature analysis and model research
@@ -51,9 +51,17 @@
 * Challenges included: data imbalance, with more male participants and a higher ADHD diagnosis rate among males and Caucasians, high dimensionality of the FMRI data (~4000+ features), and potential bias in labels due to social factors in ADHD diagnosis.
 * Data exploration and preprocessing approaches included understanding which variables had high correlations in predicting ADHD and sex, one-hot encoding categorical variables, standardizing values, reducing feature dimensionality, and undersampling to address data imbalances. 
 
-**Potential visualizations to include:**
+**Data Visualizations**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images to come!!
+* By visualizing the correlations between quantitative features and the labels (sex and ADHD) in a heatmap, we were able to better observe the spread of correlations and determine which features to retain.
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="https://github.com/user-attachments/assets/7c47a975-8c2d-4aca-b562-f6874c9f1f49" width="500">
+    <img src="https://github.com/user-attachments/assets/d11eea05-e198-4354-9a0a-3c9e2a4bd969" width="500">
+</div>
+
+* After performing PCA on the fMRI data, we created a scree plot to identify which fMRI features had high explanatory power for variance and to assess whether there was an increase compared to before PCA.
+<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="600">
 
 ---
 
