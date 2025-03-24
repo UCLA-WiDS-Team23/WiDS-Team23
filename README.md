@@ -67,7 +67,7 @@
 </div>
 
 * After performing PCA on the fMRI data, we created a scree plot to identify which fMRI features had high explanatory power for variance and to assess whether there was an increase compared to before PCA.
-<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="1000">
+<img src="https://github.com/user-attachments/assets/b482f272-9725-4891-917c-90fd1485063d" width="600">
 
 ---
 
@@ -82,7 +82,10 @@
 ## **📈 Results & Key Findings**
 
 * Our model currently places 517th in the Kaggle Datathon competition. The performance from our last submission increased by ~.05, and we expect to see improvements in our model's accuracy now that it is efficient to train. 
-<img src="https://github.com/user-attachments/assets/3abae8ac-9e1c-444a-b96a-de1d24ddb105" width="600">
+<img src="https://github.com/user-attachments/assets/3abae8ac-9e1c-444a-b96a-de1d24ddb105" width="1000">
+
+**Visualizations**
+* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ---
 
