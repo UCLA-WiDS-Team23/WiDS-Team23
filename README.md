@@ -41,16 +41,16 @@
 
 ---
 
-## **📊 Data Exploration**
+## **🔎 Data Exploration**
 
 * We used the dataset provided by the Healthy Brain Network (HBN) and the Reproducible Brain Charts (RBC), which includes: fMRI functional connectivity matrices (representing brain region correlations), quantitative features (e.g., behavioral and cognitive test scores), categorical data (e.g., socio-demographic and emotional health survey responses).
 * Challenges included data imbalance, with more male participants and a higher ADHD diagnosis rate among males and Caucasians.
-<img src="https://github.com/user-attachments/assets/365bf0d1-74d1-4b1a-889a-51deed34f87c" width="600">
+<img src="https://github.com/user-attachments/assets/365bf0d1-74d1-4b1a-889a-51deed34f87c" width="500">
 
 * There is high dimensionality of the FMRI data (~4000+ features), and potential bias in labels due to social factors in ADHD diagnosis. We also found that parental occupation was highly imbalanced across the dataset. The figures below show the distribution of occupation levels for 'Barratt_Barratt_P1_OCC' and 'Barratt_Barratt_P2_Occ':
 <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="https://github.com/user-attachments/assets/9f9dc0c3-ee08-45a5-8b3f-8282e15896f2" width="600">
-    <img src="https://github.com/user-attachments/assets/b9c84ca4-f5d5-482c-8418-4eb1c117ec11" width="600">
+    <img src="https://github.com/user-attachments/assets/9f9dc0c3-ee08-45a5-8b3f-8282e15896f2" width="500">
+    <img src="https://github.com/user-attachments/assets/b9c84ca4-f5d5-482c-8418-4eb1c117ec11" width="500">
 </div>
 
 * Data exploration and preprocessing approaches also included understanding which variables had high correlations in predicting ADHD and sex.
@@ -58,7 +58,7 @@
 
 ---
 
-**Data Visualizations:**
+## **📊 Data Preparation**
 
 * By visualizing the correlations between quantitative features and the labels (sex and ADHD) in a heatmap, we were able to better observe the spread of correlations and determine which features to retain.
 <div style="display: flex; justify-content: center; gap: 10px;">
